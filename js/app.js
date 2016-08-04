@@ -10,7 +10,7 @@ chrome.tabs.query({}, (tabs) => {
 		}
 		
 		((tab) => {
-			const title = tab.title;
+			const title = tab.title.replace('/', ' ');
 			const refererUrl = tab.url;
 			
 			chrome.tabs.executeScript(tab.id, { file: 'js/content.js' }, (results) => {
