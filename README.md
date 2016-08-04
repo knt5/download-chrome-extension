@@ -14,4 +14,16 @@ const config = {
 
 ## Usage
 
+Install this extension from chrome://extensions/
 
+![install](img/guide/install.png)
+
+Click the green arrow button
+
+![usage 1](img/guide/usage1.png)
+
+Select and copy generated script
+
+![usage 2](img/guide/usage2.png)
+
+And paste to Terminal.app
