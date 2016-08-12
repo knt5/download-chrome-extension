@@ -1,6 +1,4 @@
-# download-chrome-extension
-
-A Chrome extension to generate download script
+# A Chrome extension to generate download script
 
 ## Setup
 
@@ -14,7 +12,7 @@ const config = {
 
 ## Usage
 
-Install the extension (Access to chrome://extensions/)
+Install the extension at chrome://extensions/
 
 ![install](img/guide/install.png)
 
@@ -22,8 +20,8 @@ Click the green arrow
 
 ![usage 1](img/guide/usage1.png)
 
-Select and copy generated script
+Select and copy generated script text
 
 ![usage 2](img/guide/usage2.png)
 
-And paste to Terminal.app
+Paste to Terminal.app
